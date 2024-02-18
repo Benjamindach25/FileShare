@@ -1,6 +1,7 @@
 # --- For-Bot-Working --------- #
 pyrofork
 TgCrypto
+pip install tgcrypto
 pyromod==1.5
 # --- For-Database ------------ #
 pymongo
