@@ -1,7 +1,7 @@
-FROM python:3.8-slim-buster
+FROM python:3.9-slim-buster
 WORKDIR /app
 
-apt install gcc
+RUN apt install gcc
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
