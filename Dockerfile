@@ -1,9 +1,11 @@
 FROM python:3.8-slim-buster
 WORKDIR /app
 
+RUN sudo apt install gcc
+
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
-RUN sudo apt install gcc
+
 
 COPY . .
 
