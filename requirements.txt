@@ -1,5 +1,4 @@
 # --- For-Bot-Working --------- #
-sudo apt install gcc
 pyrofork
 tgcrypto
 pyromod==1.5
